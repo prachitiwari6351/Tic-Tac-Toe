@@ -29,5 +29,35 @@ body{
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-sizing: 0 0 1rem rgb(0,0,0,0.1);
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    font-size: 8vmin;
+}
+#reset-btn{
+    width: 20vmin;
+    height: 9vmin;
+    border-radius: 1rem;
+    font-size: 3vmin;
+    background-color: black;
+    color: white;
+}
+
+#msg{
+    font-size: 6vmin;
+    font-weight: bold;
+}
+
+#new-btn{
+    width: 20vmin;
+    height: 9vmin;
+    border-radius: 1rem;
+    font-size: 3vmin;
+    background-color: black;
+    color: white;
+}
+.msg-container{
+    margin-bottom: 8vmin;
+}
+
+.hide{
+    display: none;
 }
